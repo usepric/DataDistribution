@@ -1,0 +1,23 @@
+[DBINFO]
+#SOURCE
+sdbuser = backup
+sdbpass = rlinfo@20xx
+sdbname = RAPDB_KM_PRC
+sdbhost = 127.0.0.1
+stablst = t_b_user,t_b_baseinfo,t_d_type,t_d_role,t_b_image,t_b_info,t_b_manager
+
+#TARGET
+tdbuser = 'backup'
+tdbpass = 'rlinfo@20xx'
+tdbname = 'RAPDB_KM_WEB'
+tdbhost = '192.168.10.22'
+
+[MAILINFO]
+muser =
+mpass =
+receivelist = '',
+               '',
+               '',
+               '')
+
+[BASEINFO]
