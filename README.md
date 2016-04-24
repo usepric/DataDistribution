@@ -1,0 +1,4 @@
+# DataDistribution
+用于实现MySQL数据库中定时同步特定数据到另一个实例
+
+依据innobackupex的完全备份和增量备份，再加上一系列的流程控制，实现类似SQLServer的发布订阅功能
